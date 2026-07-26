@@ -1,0 +1,55 @@
+{
+  "optimizer_hints": {
+    "capability": "Create finished Chinese technology creator covers with portrait, brand, and typography controls.",
+    "inputs": ["article", "script", "topic", "cover title", "product UI", "brand asset", "portrait reference", "文章", "脚本", "选题", "封面标题", "产品 UI", "品牌素材", "人物照片"],
+    "trigger_actions": ["finished cover", "tech thumbnail", "sponsor cover", "cover redesign", "make a cover from this title", "科技封面", "短视频封面", "商单封面", "重做封面", "用标题做封面"],
+    "exclusions": ["generic illustration", "logo design", "lifestyle cover", "title-only", "prompt-only", "通用插画", "Logo 设计", "生活方式封面", "只要标题", "只要提示词"]
+  },
+  "fallback_positive_concepts": ["finished_cover", "tech_subject", "final_artifact"],
+  "positive_concepts": {
+    "finished_cover": {
+      "weight": 0.55,
+      "phrases": ["finished cover", "thumbnail", "sponsor cover", "short-video cover", "cover redesign", "make a cover from this title", "可发布", "封面", "短视频封面", "商单封面", "重做封面", "用标题做封面", "小红书封面", "抖音封面", "视频号封面"]
+    },
+    "tech_subject": {
+      "weight": 0.45,
+      "phrases": ["technology creator", "AI tool", "cloud service", "B2B", "tech", "AI", "云服务", "科技", "工具", "工作流", "产品 UI", "推理云", "AIGC", "算力"]
+    },
+    "final_artifact": {
+      "weight": 0.42,
+      "phrases": ["publish-ready", "finished", "可直接发布", "可发布", "生成", "设计", "重做"]
+    }
+  },
+  "negative_concepts": {
+    "generic_illustration": {
+      "weight": 0.5,
+      "exclusive": true,
+      "phrases": ["generic illustration", "future city illustration", "没有文字的", "插画"]
+    },
+    "logo_design": {
+      "weight": 0.55,
+      "exclusive": true,
+      "phrases": ["logo design", "设计一个 Logo", "设计一个科技感 Logo"]
+    },
+    "non_tech_lifestyle": {
+      "weight": 0.55,
+      "exclusive": true,
+      "phrases": ["coffee", "cafe", "探店", "咖啡", "生活方式", "穿搭", "美食"]
+    },
+    "title_only": {
+      "weight": 0.6,
+      "exclusive": true,
+      "phrases": ["title-only", "标题，先不要设计封面", "不要制作图片", "暂时不制作图片", "只要想标题", "先不要设计封面"]
+    },
+    "undecided_scope": {
+      "weight": 0.55,
+      "exclusive": true,
+      "phrases": ["还没决定", "暂时不确定", "还不确定"]
+    },
+    "prompt_only": {
+      "weight": 0.62,
+      "exclusive": true,
+      "phrases": ["prompt-only", "生图提示词", "不需要成品", "只交付提示词", "提示词，不需要"]
+    }
+  }
+}

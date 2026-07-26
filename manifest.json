@@ -1,0 +1,25 @@
+{
+  "name": "kaixin-3d-anime-cover",
+  "version": "0.5.0",
+  "owner": "Kaixin 3D Anime Cover",
+  "updated_at": "2026-07-26",
+  "status": "active",
+  "maturity_tier": "production",
+  "lifecycle_stage": "production",
+  "context_budget_tier": "production",
+  "review_cadence": "quarterly",
+  "category": "creative-production",
+  "skill_archetype": "production",
+  "target_platforms": [
+    "openai",
+    "claude",
+    "agent-skills-compatible"
+  ],
+  "factory_components": [
+    "references",
+    "scripts",
+    "assets",
+    "evals",
+    "reports"
+  ]
+}

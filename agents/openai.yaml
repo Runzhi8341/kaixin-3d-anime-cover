@@ -1,0 +1,4 @@
+interface:
+  display_name: "开心3d动漫封面"
+  short_description: "长标题先由用户选原题或提炼版，再生成 3D 动漫短视频封面"
+  default_prompt: "使用 $kaixin-3d-anime-cover 用这个标题做 3:4 封面；标题过长时先给我一个排版友好的提炼版，再由我决定保留原题还是使用提炼标题。"

@@ -1,0 +1,65 @@
+{
+  "recommended_threshold": 0.33,
+  "should_trigger": [
+    {
+      "family": "title-input-needs-research",
+      "text": "用‘Gemini 3 发布’这个标题做一张 3:4 短视频封面。"
+    },
+    {
+      "family": "tech-cover-finished-artifact",
+      "text": "把这篇 AI 云服务商单做成 3 张可直接发布的小红书封面，要保留我的人物形象和品牌 Logo。"
+    },
+    {
+      "family": "tech-cover-platform",
+      "text": "根据这份 AI 工具实测脚本，生成抖音和视频号都能用的科技短视频封面。"
+    },
+    {
+      "family": "tech-cover-redesign",
+      "text": "这张科技博主封面的字太普通、人物像抠图，帮我重做为可发布的商单封面。"
+    },
+    {
+      "family": "tech-cover-product-ui",
+      "text": "用产品 UI 截图和我本人的照片，设计一张讲 AI 工作流的 3:4 小红书封面。"
+    },
+    {
+      "family": "aihot-viral-avatar-world-scene",
+      "text": "用 aihot 找 5 个 AI 产品话题，做 5 张 3:4 爆款大头封面，人物要像本人，场景要有想象力，比如长城、山顶、太空、魔法学院或城市天台。"
+    },
+    {
+      "family": "viral-avatar-redesign-identity-scene",
+      "text": "这张封面人物太卡通、场景太像数据面板，帮我改成脸能看出本人、身体角色化、场景更有世界观的爆款封面。"
+    }
+  ],
+  "should_not_trigger": [
+    {
+      "family": "generic-illustration",
+      "text": "生成一张没有文字的未来城市插画。"
+    },
+    {
+      "family": "logo-design",
+      "text": "给我的 AI 创业公司设计一个科技感 Logo。"
+    },
+    {
+      "family": "lifestyle-cover",
+      "text": "帮我做一张小红书咖啡探店封面。"
+    },
+    {
+      "family": "title-only",
+      "text": "根据这篇文章给我想 10 个标题，先不要设计封面。"
+    }
+  ],
+  "near_neighbor": [
+    {
+      "family": "prompt-only",
+      "text": "给我一段阿囤囤风格的小红书封面生图提示词，不需要成品。"
+    },
+    {
+      "family": "generic-cover-style-selection",
+      "text": "我想做一张小红书封面，但还没决定是不是科技内容，也没有素材。"
+    },
+    {
+      "family": "article-headline",
+      "text": "给这篇 AI 文章提炼三个封面标题，暂时不制作图片。"
+    }
+  ]
+}

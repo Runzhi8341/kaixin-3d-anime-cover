@@ -1,0 +1,29 @@
+interface:
+  display_name: "开心3d动漫封面"
+  short_description: "长标题先由用户选原题或提炼版，再生成 3D 动漫短视频封面"
+  default_prompt: "使用 $kaixin-3d-anime-cover 用这个标题做 3:4 封面；标题过长时先给我一个排版友好的提炼版，再由我决定保留原题还是使用提炼标题。"
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "claude"
+    - "agent-skills-compatible"
+  activation:
+    mode: "manual"
+    paths:
+      - "SKILL.md"
+      - "references/style-guide.md"
+      - "references/typography-and-portrait.md"
+      - "scripts/compose_cover.py"
+      - "evals/trigger_cases.json"
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "metadata-adapter"
+    claude: "neutral-source-plus-adapter"
+    agent-skills-compatible: "neutral-source"
