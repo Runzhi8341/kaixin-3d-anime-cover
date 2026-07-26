@@ -3,11 +3,14 @@
 > 把 AI、工具、云服务与 B2B 主题，做成一眼想点开的中文 3D 动漫视觉封面。
 
 <p align="center">
-  <img src="assets/approved-typography/01-Codex解锁-长城代码守关-v3-原图.png" width="18%" alt="Codex 封面示例" />
-  <img src="assets/approved-typography/02-Mindwalk代码地图-金字塔考古-v3-原图.png" width="18%" alt="Mindwalk 封面示例" />
-  <img src="assets/approved-typography/03-MeshLLM-GPU组队-山顶算力基站-v3-原图.png" width="18%" alt="MeshLLM 封面示例" />
-  <img src="assets/approved-typography/04-Flint-AI画图表-魔法学院-v3-原图.png" width="18%" alt="Flint 封面示例" />
-  <img src="assets/approved-typography/05-Perplexity额度看板-城市天台侦探-v3-原图.png" width="18%" alt="Perplexity 封面示例" />
+  <img src="assets/approved-typography/01-Codex解锁-长城代码守关-v3-原图.png" width="22%" alt="Codex 封面示例" />
+  <img src="assets/approved-typography/02-Mindwalk代码地图-金字塔考古-v3-原图.png" width="22%" alt="Mindwalk 封面示例" />
+  <img src="assets/approved-typography/03-MeshLLM-GPU组队-山顶算力基站-v3-原图.png" width="22%" alt="MeshLLM 封面示例" />
+  <img src="assets/approved-typography/04-Flint-AI画图表-魔法学院-v3-原图.png" width="22%" alt="Flint 封面示例" /><br />
+  <img src="assets/approved-typography/05-Perplexity额度看板-城市天台侦探-v3-原图.png" width="22%" alt="Perplexity 封面示例" />
+  <img src="assets/example-comparisons/xiaocaiguozi-o-cover-01.png" width="22%" alt="视频翻译封面案例" />
+  <img src="assets/example-comparisons/waic-dexterous-hand-cover.png" width="22%" alt="WAIC 灵巧手机器人封面案例" />
+  <img src="assets/example-comparisons/waic-shanghai-cover.png" width="22%" alt="上海 WAIC 封面案例" />
 </p>
 
 <p align="center">
@@ -47,16 +50,15 @@
 
 > 特别鸣谢小红书博主：**小菜果子o** 的美照，为本案例提供真人参考。
 
-<table>
-  <tr>
-    <th>更多封面案例</th>
-    <th>更多封面案例</th>
-  </tr>
-  <tr>
-    <td><img src="assets/example-comparisons/waic-dexterous-hand-cover.png" alt="WAIC 灵巧手机器人封面案例" /></td>
-    <td><img src="assets/example-comparisons/waic-shanghai-cover.png" alt="上海 WAIC 封面案例" /></td>
-  </tr>
-</table>
+## 安装
+
+在终端运行下面的命令，即可将技能安装到本机的 Codex：
+
+```bash
+npx skills add Runzhi8341/kaixin-3d-anime-cover -g
+```
+
+安装完成后，新开一个 Codex 对话即可使用。
 
 ## 一句话开始
 
@@ -87,16 +89,6 @@
 | 6. 交付成品 | 输出可发布的 3:4 封面；只有你需要时，才额外提供提示词或制作说明。 |
 
 > 你可以只给一句主题开始。技能会在需要你确认标题或补充关键素材时停下来问你，不会跳过这些环节直接产出。
-
-## 安装
-
-在终端运行下面的命令，即可将技能安装到本机的 Codex：
-
-```bash
-npx skills add Runzhi8341/kaixin-3d-anime-cover -g
-```
-
-安装完成后，新开一个 Codex 对话，输入 `$kaixin-3d-anime-cover` 或直接说“帮我做一张 3D 动漫封面”即可使用。
 
 ## 设计语言
 
