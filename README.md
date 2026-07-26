@@ -26,6 +26,27 @@
 | 使用人物照片制作封面 | 仅使用你为本次任务提供的照片，保持人物一致性 |
 | 已有封面但不够吸睛 | 保留核心信息，重新设计视觉叙事、层级和标题冲击力 |
 
+## 真人照片 → 3D 动漫封面
+
+<table>
+  <tr>
+    <th>真人照片</th>
+    <th>生成封面</th>
+    <th>真人照片</th>
+    <th>生成封面</th>
+  </tr>
+  <tr>
+    <td><img src="assets/example-comparisons/xiaocaiguozi-o-original-01.png" alt="真人照片示例一" /></td>
+    <td><img src="assets/example-comparisons/xiaocaiguozi-o-cover-01.png" alt="3D 动漫封面示例一" /></td>
+    <td><img src="assets/example-comparisons/xiaocaiguozi-o-original-02.jpg" alt="真人照片示例二" /></td>
+    <td><img src="assets/example-comparisons/xiaocaiguozi-o-cover-02.png" alt="3D 动漫封面示例二" /></td>
+  </tr>
+</table>
+
+<p align="center"><em>左为真人照片，右为生成的 3D 动漫封面。</em></p>
+
+> 特别鸣谢小红书博主：**小菜果子o** 的美照，为本案例提供真人参考。
+
 ## 一句话开始
 
 在 Codex 中直接说：
